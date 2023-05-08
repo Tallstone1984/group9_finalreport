@@ -1,0 +1,40 @@
+Name,Modeling data type,Full description of the feature,Unit of measurement,I=input T=target
+blueWins,qualitative - binary,Tracks which team one based on whether the blue team won or not,0 = False / 1 = True,T
+blueWardsPlaced,quantitative - discrete,Tracks  the amount of Wards placed by the blue team,Total/10 Minutes,I
+blueWardsDestroyed,quantitative - discrete,Tracks the amount of wards destroyed by the blue team,Total/10 Minutes,I
+blueFirstBlood,qualitative - binary,Tracks whether or not the blue team had the first kill of the game,0 = False / 1 = True,I
+blueKills,quantitative - discrete,Tracks how many kills the blue team had,Total/10 min,I
+blueDeaths,quantitative - discrete,Tracks how many deaths the blue team had,Total/10 min,I
+blueAssists,quantitative - discrete,Tracks how many assists the blue team shared,Total/10 min,I
+blueEliteMonsters,quantitative - discrete,Tracks how many elite monsters the blue team killed ,Total/10 min,I
+blueDragons,quantitative - discrete,Tracks how many dragons the blue team killed,Total/10 min,I
+blueHeralds,quantitative - discrete,Tracks how many heralds the blue team killed,Total/10 min,I
+blueTowersDestroyed,quantitative - discrete,Tracks how many towersthe blue team destroyed,Total/10 min,I
+blueTotalGold,quantitative - discrete,Tracks the total amount of gold the blue team acquired,Total/10 min,I
+blueAvgLevel,quantitative - continuous,Tracks the average level of the blue team,Total/10 min,I
+blueTotalExperience,quantitative - discrete,Tracks the total amount of experience the blue team acquired,Total/10 min,I
+blueTotalMinionsKilled,quantitative - discrete,Tracks how many minions the blue team killed,Total/10 min,I
+blueTotalJungleMinionsKilled,quantitative - discrete,Tracks how many jungle minions the blue team killed,Total/10 min,I
+blueGoldDiff,quantitative - discrete,Tracks the total difference in gold the blue team had with the red team,Total/10 min,I
+blueExperienceDiff,quantitative - discrete,Tracks the total difference in experience the blue team had with the red team,Total/10 min,I
+blueCreepScorePerMin,quantitative - continuous,Tracks the average creep score the blue team had per minute,Total/10 min,I
+blueGoldPerMin,quantitative - continuous,Tracks the average amount of gold the blue team had per minute,Total/10 min,I
+redWardsPlaced,quantitative - discrete,Tracks  the amount of Wards placed by the red team,Total/10 min,I
+redWardsDestroyed,quantitative - discrete,Tracks the amount of wards destroyed by the red team,Total/10 min,I
+redFirstBlood,qualitative - binary,Tracks whether the red team had the first kill of the game,0 = False / 1 = True,I
+redKills,quantitative - discrete,Tracks how many kills the red team had,Total/10 min,I
+redDeaths,quantitative - discrete,Tracks how many deaths the red team had,Total/10 min,I
+redAssists,quantitative - discrete,Tracks how many assists the red team shared,Total/10 min,I
+redEliteMonsters,quantitative - discrete,Tracks how many elite monsters the red team killed ,Total/10 min,I
+redDragons,quantitative - discrete,Tracks how many dragons the red team killed,Total/10 min,I
+redHeralds,quantitative - discrete,Tracks how many heralds the red team killed,Total/10 min,I
+redTowersDestroyed,quantitative - discrete,Tracks how many towersthe red team destroyed,Total/10 min,I
+redTotalGold,quantitative - discrete,Tracks the total amount of gold the red team acquired,Total/10 min,I
+redAvgLevel,quantitative - continuous,Tracks the average level of the red team,Total/10 min,I
+redTotalExperience,quantitative - discrete,Tracks the total amount of experience the red team acquired,Total/10 min,I
+redTotalMinionsKilled,quantitative - discrete,Tracks how many minions the red team killed,Total/10 min,I
+redTotalJungleMinionsKilled,quantitative - discrete,Tracks how many jungle minions the red team killed,Total/10 min,I
+redGoldDiff,quantitative - discrete,Tracks the total difference in gold the red team had with the blue team,Total/10 min,I
+redExperienceDiff,quantitative - discrete,Tracks the total difference in experience the red team had with the blue team,Total/10 min,I
+redCreepScorePerMin,quantitative - continuous,Tracks the average creep score the red team had per minute,Total/10 min,I
+redGoldPerMin,quantitative - continuous,Tracks the average amount of gold the red team had per minute,Total/10 min,I
